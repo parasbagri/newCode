@@ -1,0 +1,87 @@
+/*  if you want to add font link than you can add it from the google font   */
+
+/* Universal selector */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}  */
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container
+{
+  width:60% ;
+  height: 90%;
+  background-color: rgb(61, 61, 195);
+} 
+.box{
+   width: 80px;
+   height: 80px;
+   text-align: center;
+   padding: 40px 0 ;
+} 
+.box1{
+   background-color: red;
+   position: static;
+   top: 0;
+    
+} 
+span{
+   font-weight: 900;
+}
+.box2{
+   background: olive;
+   position: fixed;
+   bottom: 100px;
+   right: 30%;
+   border-radius: 40%;
+}
+    
+.box3
+{
+   background: gray;
+   position: relative;
+   left: 100px;
+   top: -20px;
+} 
+.box4
+{
+   background-color: cyan;
+   position: absolute;
+   top: 200px;
+
+   
+   
+}
+.box5
+{
+   background-color: blueviolet;
+  
+} 
+.box6{
+   
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+} 
+.main-section{
+   width: 900px;
+   border: 1px solid black;
+   margin: 0 auto;
+   padding: 40px 10px;
+ 
+}  

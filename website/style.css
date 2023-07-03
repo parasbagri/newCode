@@ -1,0 +1,128 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+
+body{
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+.text-bgBlack{
+   background-color:black ;
+   color: white;
+   text-align: center;
+   padding: 20px 10px;
+   font-size:19px ;
+} 
+span{
+   font-weight: 900;
+   letter-spacing: 6px;
+   text-decoration: underline;
+   text-transform: capitalize;
+
+} 
+nav{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+} 
+nav .nabBar ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+} 
+ul li{
+   list-style-type: none;
+    color: red;
+    font-weight: 700;
+    margin-left: 20px;
+    
+} 
+.nav-items:hover{
+   
+  background-color: aqua;
+  padding: 3px 3px;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+} 
+.nav-items{
+   transition: all 0.5s linear;
+} 
+.img{
+   margin-left: -60px;
+} 
+.login-details{
+  margin-right: 50px;
+  display: flex;
+  gap: 20px;
+  
+  
+} 
+.login-details a{
+   text-decoration: none;
+   border: 0.7px solid black;
+   padding: 2px 4px;
+   border-radius: 4px;
+   font-size: 17px;
+   font-weight: 600;
+
+
+
+} 
+.btn2
+{
+   background-color: yellow;
+} 
+
+/* main section stylling  */
+.main-section{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 1200px;
+     margin: 0 auto;
+     gap: 60px;
+     /* border: 2px solid black; */
+   
+  }  
+  .left-part{
+     /* border: 1px solid black; */
+     width: 400px;
+  }
+  .right-part img{
+    width: 600px;
+    height: 500px;
+     
+  } 
+  .btt{
+     margin-top: 20px;
+     border: 1px solid black;
+     padding: 5px 4px ;
+     border-radius: 10px;
+  } 
+  .btt:hover{
+background-color: aliceblue;
+  } 
+  footer{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     margin-top: -4px;
+  } 
+  .left-footr{
+     width: 800px;
+  } 
+  .paro{
+     border: 1px solid white;
+     padding: 5px 4px 5px 4px;
+     border-radius: 5px;
+     text-decoration: none;
+     margin-right:10px;
+  }
